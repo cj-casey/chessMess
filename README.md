@@ -21,3 +21,12 @@ permanently destroy pieces by going to the underworld!!
 
 
 All thanks to Vasiliy! :D
+
+## Webapp setup
+
+- `python3 -m venv venv`
+- `source ./venv/bin/activate`
+- `pip install -r requirements.txt`
+- `python3 webUI.py` should work. Good luck!
+
+(If anyone knows why I can't get `APPLICATION_ROOT='/chessMess` to work for static content served via flask, please tell me)
